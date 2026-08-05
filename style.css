@@ -1,0 +1,96 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.loginButton {
+    background-color: #fe2222;
+    color:#f5f5f5;
+    padding: 12px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.loginButton:hover {
+    background: #c41818;
+    text-decoration: underline;
+}
+
+.signUpButton {
+    background-color: #fe2222;
+    color:#f5f5f5;
+    padding: 12px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signUpButton:hover {
+    background: #c41818;
+    text-decoration: underline;
+}
+
+.startQuiz {
+    display: flex;
+    background-color: rgb(255, 244, 206);
+    justify-content: center;
+    padding: 2px;
+}
+
+.text {
+    text-align: left;
+    width: 40%;
+    color: rgb(156, 1, 1)
+}
+
+.startQuizButton {
+    display: inline-block;
+    background-color: #fe2222;
+    color:#f5f5f5;
+    padding: 12px;
+    border-radius:  8px;
+    text-decoration: none; /*Buat hilangin underlinenya*/
+    font-weight: bold;
+}
+
+.startQuizButton:hover {
+    background-color:#c41818;
+}
+
+#judul {
+    text-align: center;
+}
+
+#informasi {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    text-align: left;
+    max-width:fit-content;
+}
+
+.footer {
+    text-align: center;
+    background-color:  rgb(255, 244, 206);
+    padding: 1px;
+}
+
+.kuis {
+    background-color: rgb(255, 244, 206);
+    text-align: center;
+}
