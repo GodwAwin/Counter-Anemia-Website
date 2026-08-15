@@ -111,7 +111,9 @@ body {
 }
 
 #judul {
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 #informasi {
@@ -119,8 +121,7 @@ body {
     justify-content: center;
     gap: 20px;
     text-align: left;
-    max-width:fit-content;
-    margin-left: 75px;
+    width: 100%;
 }
 
 #pengertianAnemia {
@@ -148,7 +149,6 @@ body {
     justify-content: center;
     padding: 20px;
     border-radius: 30px;
-    justify-content: center;
     gap: 20px;
     text-align: left;
     width: 100%;
@@ -168,10 +168,11 @@ body {
 
 .tujuan .konten {
     display: flex;
-    background-color: rgb(255, 244, 206);
+    /* background-color: rgb(255, 244, 206); */
+    background-color: #fdfdf1;
     width: 100%;
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 50px;
     justify-content: center;
     gap: 20px;
     text-align: center;
@@ -179,7 +180,8 @@ body {
 }
 
 .tujuan .konten #tujuan1, .tujuan .konten #tujuan2, .tujuan .konten #tujuan3 {
-    background-color: #fdfdf1;
+    /* background-color: #fdfdf1; */
+    background-color: rgb(255, 244, 206);
     padding: 20px;
     border-radius: 10px;
     width: 200px;
@@ -190,34 +192,50 @@ body {
 }
 
 .manfaat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #eeeee5;
     padding: 20px;
-    justify-content: center;
-    gap: 20px;
     text-align: center;
     width: 100%;
+}
+
+.manfaat .judul {
+    text-align: center;
 }
 
 .manfaat .konten {
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-}
-
-.manfaat .konten .manfaatAtas, .manfaat .konten .manfaatBawah {
     display: flex;
     justify-content: center;
+    text-align: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.manfaat .konten .manfaatKiri, .manfaat .konten .manfaatKanan {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* .manfaat .konten .manfaatAtas, .manfaat .konten .manfaatBawah {
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
     gap: 50px;
 }
+
+.manfaat .konten .manfaat2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+} */
 .manfaat .konten #manfaat1, .manfaat .konten #manfaat2, .manfaat .konten #manfaat3, .manfaat .konten #manfaat4, .manfaat .konten #manfaat5 {
     background-color: #fdfdf1;
     border-radius: 20px;
-    gap: 30px;
     width: fit-content;
     padding: 20px;
-    width: 275px;
+    width: 50%;
 }
 
 .footer {
