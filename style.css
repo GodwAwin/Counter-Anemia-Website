@@ -141,6 +141,7 @@ body {
 
 .tentangKami .judul {
     text-align: center;
+    animation: fadeUp 3s infinite;
 }
 
 .tentangKami .konten {
