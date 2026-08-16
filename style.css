@@ -163,32 +163,24 @@ body {
 }
 
 .tujuan .judul {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .tujuan .konten {
     display: flex;
-    /* background-color: rgb(255, 244, 206); */
     background-color: #fdfdf1;
     width: 100%;
-    padding: 20px;
-    border-radius: 50px;
     justify-content: center;
     gap: 20px;
     text-align: center;
-    max-width:fit-content;
 }
 
 .tujuan .konten #tujuan1, .tujuan .konten #tujuan2, .tujuan .konten #tujuan3 {
-    /* background-color: #fdfdf1; */
-    background-color: rgb(255, 244, 206);
+    background-color: rgb(253, 245, 216);
     padding: 20px;
-    border-radius: 10px;
-    width: 200px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-radius: 20px;
+    width: 15%;
 }
 
 .manfaat {
@@ -202,40 +194,31 @@ body {
 }
 
 .manfaat .judul {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .manfaat .konten {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     text-align: center;
     gap: 20px;
     width: 100%;
 }
 
-.manfaat .konten .manfaatKiri, .manfaat .konten .manfaatKanan {
+.manfaat .konten .manfaatAtas, .manfaat .konten .manfaatBawah {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-/* .manfaat .konten .manfaatAtas, .manfaat .konten .manfaatBawah {
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px;
     gap: 50px;
 }
-
-.manfaat .konten .manfaat2 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 200px;
-} */
 .manfaat .konten #manfaat1, .manfaat .konten #manfaat2, .manfaat .konten #manfaat3, .manfaat .konten #manfaat4, .manfaat .konten #manfaat5 {
     background-color: #fdfdf1;
     border-radius: 20px;
+    gap: 30px;
     width: fit-content;
     padding: 20px;
-    width: 50%;
+    width: 275px;
 }
 
 .footer {
