@@ -24,25 +24,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.bagian button {
+.bagian a {
     color:black;
-    border: none;
     background: none;
+    text-decoration: none;
 }
 
-#beranda:hover {
+#tombolBeranda:hover {
     color:#e90b0b;
 }
 
-#tentangKami:hover {
+#tombolTentangKami:hover {
     color: #e90b0b;
 }
 
-#tujuan:hover {
+#tombolTujuan:hover {
     color: #e90b0b;
 }
 
-#manfaat:hover {
+#tombolManfaat:hover {
     color: #e90b0b;
 }
 
@@ -86,7 +86,7 @@ body {
     text-decoration: underline;
 }
 
-.startQuiz {
+#startQuiz {
     display: flex;
     background-color: rgb(255, 248, 221);
     justify-content: center;
@@ -143,18 +143,18 @@ body {
     gap: 3px;
 }
 
-.tentangKami {
+#tentangKami {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.tentangKami .judul {
+#tentangKami .judul {
     text-align: center;
     animation: fadeUp 3s infinite;
 }
 
-.tentangKami .konten {
+#tentangKami .konten {
     width: 600px;
     height: 450px;
     perspective: 1000px;
@@ -170,7 +170,7 @@ body {
     transform-style: preserve-3d;
 }
 
-.tentangKami .konten:hover .flipCard {
+#tentangKami .konten:hover .flipCard {
     transform: rotateY(180deg);
 }
 
@@ -201,12 +201,12 @@ body {
     text-align: center;
 }
 
-.tujuan .judul {
+#tujuan .judul {
     display: flex;
     justify-content: center;
 }
 
-.tujuan .konten {
+#tujuan .konten {
     display: flex;
     background-color: #fdfdf1;
     width: 100%;
@@ -215,14 +215,14 @@ body {
     text-align: center;
 }
 
-.tujuan .konten #tujuan1, .tujuan .konten #tujuan2, .tujuan .konten #tujuan3 {
+#tujuan .konten #tujuan1, #tujuan .konten #tujuan2, #tujuan .konten #tujuan3 {
     background-color: rgb(253, 245, 216);
     padding: 20px;
     border-radius: 20px;
     width: 15%;
 }
 
-.manfaat {
+#manfaat {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -232,12 +232,12 @@ body {
     width: 100%;
 }
 
-.manfaat .judul {
+#manfaat .judul {
     display: flex;
     justify-content: center;
 }
 
-.manfaat .konten {
+#manfaat .konten {
     /* display: flex;
     justify-content: center; */
     text-align: center;
@@ -245,13 +245,13 @@ body {
     width: 100%;
 }
 
-.manfaat .konten .manfaatAtas, .manfaat .konten .manfaatBawah {
+#manfaat .konten .manfaatAtas, #manfaat .konten .manfaatBawah {
     display: flex;
     justify-content: center;
     padding: 20px;
     gap: 50px;
 }
-.manfaat .konten #manfaat1, .manfaat .konten #manfaat2, .manfaat .konten #manfaat3, .manfaat .konten #manfaat4, .manfaat .konten #manfaat5 {
+#manfaat .konten #manfaat1, #manfaat .konten #manfaat2, #manfaat .konten #manfaat3, #manfaat .konten #manfaat4, #manfaat .konten #manfaat5 {
     background-color: #fdfdf1;
     border-radius: 20px;
     gap: 30px;
