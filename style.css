@@ -180,7 +180,7 @@ body {
     height: 100%;
     backface-visibility: hidden;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 160px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -268,6 +268,36 @@ body {
 }
 
 .kuis {
-    background-color: rgb(255, 244, 206);
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.quizBox {
+    background-color: #fdfdf1;
+    box-shadow: 0 8px 160px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.navigasiKuis {
+    display: flex;
+}
+
+.jawab {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.jawab p {
+    display: flex;
+    background-color: #fdfdf1;
+    border: 2px solid #ffabab;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
