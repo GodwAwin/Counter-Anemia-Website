@@ -271,6 +271,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .quizBox {
     background-color: #fdfdf1;
     box-shadow: 0 8px 160px rgba(0, 0, 0, 0.1);
@@ -278,6 +279,14 @@ body {
     padding: 20px;
     border-radius: 20px;
 }
+
+/* .quizBox #soal1, .quizBox #soal4, .quizBox #soal3, .quizBox #soal4 , .quizBox #soal1, .quizBox #soal5, .quizBox #soal6, .quizBox #soal7, .quizBox #soal8, .quizBox #soal9, .quizBox #soal10, .quizBox #soal11, .quizBox #soal12, .quizBox #soal13,.quizBox #soal14, .quizBox #soal15, .quizBox #soal16, .quizBox #soal17, .quizBox #soal18, .quizBox #soal19, .quizBox #soal20 {
+    background-color: #fdfdf1;
+    box-shadow: 0 8px 160px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+} */
 
 .navigasiKuis {
     display: flex;
@@ -289,7 +298,7 @@ body {
     gap: 50px;
 }
 
-.jawab p {
+.jawab .tidakPernah .satu, .jawab .jarang .dua, .jawab .kadang .tiga, .jawab .sering .empat, .jawab .selalu .lima  {
     display: flex;
     background-color: #fdfdf1;
     border: 2px solid #ffabab;
@@ -300,4 +309,20 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+.jawab .tidakPernah .satu:hover , .jawab .jarang .dua:hover, .jawab .kadang .tiga:hover, .jawab .sering .empat:hover, .jawab .selalu .lima:hover {
+    background-color: #fe2222;
+    color: #fdfdf1;
+}
+
+#tombolLanjut1, #tombolLanjut2, #tombolLanjut3, #tombolLanjut4, #tombolLanjut5, #tombolLanjut6, #tombolLanjut7, #tombolLanjut8, #tombolLanjut9, #tombolLanjut10, #tombolLanjut11, #tombolLanjut12, #tombolLanjut13, #tombolLanjut14, #tombolLanjut15, #tombolLanjut16, #tombolLanjut17, #tombolLanjut1, #tombolLanjut18, #tombolLanjut19, #tombolLanjut20 {
+    display: flex;
+    background-color:#fe2222;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 15px;
+    border-radius: 20px;
+    cursor: default;
 }
